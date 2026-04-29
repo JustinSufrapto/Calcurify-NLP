@@ -1,0 +1,16 @@
+.speedometer-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.speedometer-center-text {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5rem; /* Tailwind's text-2xl ~ 24px */
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+body{
+    font-family: '', sans-serif;
+    background-color: #f9fcef;
+    height: 100vh;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.2);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #B6E97C;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #f9fcef;
+  font-family: sans-serif;
+}
+
+.modal-content button:hover {
+  background-color: #9ddf6a;
+}

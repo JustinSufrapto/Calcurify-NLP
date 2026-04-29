@@ -1,0 +1,128 @@
+
+.hasil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+
+.bagianRiwayat{
+    display: flex;
+    background-color: #B6E97C;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:50px 200px 400px 200px;
+    border-radius: 10px;
+    gap:30px;
+}
+
+.whiteCard{
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    width:700px;
+    height:150px;
+}
+
+.nutritionDesc{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.textCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #B6E97C;
+    margin:0px 200px 0px 200px;
+    border-radius: 10px;
+}
+
+.topMiddlePart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    height:250px;
+    margin:0px;
+    width: 100%;
+    padding: 0 10rem;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+.nutritionsPart{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #EAFFD1;
+    border-radius: 0 0 10px 10px;
+    width:100%;
+    height:auto;
+    padding: 1rem 0;
+    margin:0;
+    padding:50px
+
+}
+
+.eachNutritions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topTxtPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap:5px;
+}
+
+.bigTxt{
+    font-size: 30px;
+}
+
+.middleTxt{
+    font-size: 23px;
+    text-align: center;
+}
+
+#date{
+    text-align: center;
+}
+
+.riwayatTitle{
+    margin-top:20px
+}

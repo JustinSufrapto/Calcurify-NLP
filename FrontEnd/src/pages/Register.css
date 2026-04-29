@@ -1,0 +1,63 @@
+.regBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:10px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.greenBoxReg{
+    width:400px;
+    background-color: #B6E97C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.wholePageReg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}    
+
+.textInputReg{
+    padding:5px 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+}
+
+.regTitle{
+    margin-bottom: 30px;
+}
+
+.clickButton{
+    padding: 15px 15px;
+    width:300px;
+    font-size: 15x;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color:white;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.buttonCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallTxtReg{
+    font-size: 14px;
+}

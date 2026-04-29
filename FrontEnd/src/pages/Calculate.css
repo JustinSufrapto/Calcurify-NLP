@@ -1,0 +1,128 @@
+.wrapper{
+    font-family: '', sans-serif;
+    background-color: #f9fcef;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.greenBox{
+    width:auto;
+    background-color: #92CF4B;
+    margin:40px 65px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+
+}
+
+.descTxt{
+    margin:30px 30px 15px 30px;
+    font-weight: bold;
+}
+
+.textbox{
+    margin:0px 30px;
+    border-radius: 7px;
+    height:150px;
+    resize: none;
+    border : none;
+    padding:10px;
+    width:1090px;
+}
+
+.submitButton{
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    margin:20px 30px;
+    width:80px;
+    height:35px;
+    border-style: none;
+}
+
+.submitButtonAgain{
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    margin:20px 30px;
+    width:120px;
+    height:35px;
+    border-style: none;
+}
+
+.confirmButton{
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    margin:20px 30px;
+    width:80px;
+    height:35px;
+    border-style: none;
+}
+
+.confirmButton:hover{
+    background-color: rgb(30, 30, 30);
+    color:rgb(201, 201, 201);
+    cursor:pointer;
+}
+
+.submitButton:hover{
+    background-color: rgb(30, 30, 30);
+    color:rgb(201, 201, 201);
+    cursor:pointer;
+}
+
+.kalkulatorTitle{
+    color:white;
+    padding-left:30px;
+}
+
+.kalulatorImage{
+    background-color: black;
+}
+
+.resultCard {
+  background-color: #ffffffdd;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #235347;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 4px;
+}
+
+.foodList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.foodItem {
+  background-color: #e6f5ec;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+}
+
+.foodDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.totalNutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 1rem;
+  margin-top: 12px;
+}

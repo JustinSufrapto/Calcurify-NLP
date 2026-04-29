@@ -1,0 +1,18 @@
+.greenBox{
+    background-color: #B6E97C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.theList{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.theTitle{
+    margin-bottom:10px;
+}

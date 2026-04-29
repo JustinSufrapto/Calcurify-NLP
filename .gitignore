@@ -5,6 +5,7 @@ npm-debug.log*
 # Firebase keys or secrets
 firebase_key.json
 .env
+.env.local
 
 # OS generated files
 .DS_Store
